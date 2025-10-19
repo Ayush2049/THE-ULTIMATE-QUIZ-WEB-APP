@@ -75,39 +75,6 @@ Quiz Master is a full-stack web application that supports fetching quiz question
 | **Database** | MongoDB |
 | **APIs** | External Quiz API for dynamic content |
 
----
-
-## 📂 Project Structure
-```
-quiz-app/
-│
-├── frontend/
-│   ├── index.html              # Landing page
-│   ├── quiz.html               # Quiz interface
-│   ├── results.html            # Results page
-│   ├── css/
-│   │   └── style.css           # Styles
-│   └── js/
-│       ├── quiz.js             # Quiz logic
-│       └── results.js          # Results handling
-│
-├── backend/
-│   ├── app.js                  # Main server file
-│   ├── routes/
-│   │   ├── auth.js             # Authentication routes
-│   │   ├── quiz.js             # Quiz routes
-│   │   └── leaderboard.js      # Leaderboard routes
-│   └── models/
-│       ├── User.js             # User schema
-│       └── Quiz.js             # Quiz schema
-│
-├── data/
-│   └── customQuestions.json    # Custom quiz questions
-│
-├── .env                        # Environment variables
-├── package.json                # Dependencies
-└── README.md                   # Documentation
-```
 
 ---
 
@@ -158,14 +125,6 @@ npm install -g nodemon
 nodemon backend/app.js
 ```
 
-**6. Access the application**
-
-Open your browser and navigate to:
-```
-http://localhost:3000
-```
-
----
 
 ## 📝 Usage Guide
 
@@ -227,53 +186,6 @@ Add your own questions in `data/customQuestions.json`:
 ]
 ```
 
----
-
-## 🎨 Screenshots
-
-### Landing Page
-*[Add screenshot of your landing page]*
-
-### Quiz Interface
-*[Add screenshot of quiz in progress]*
-
-### Results Page
-*[Add screenshot of results display]*
-
-### Leaderboard
-*[Add screenshot of leaderboard]*
-
----
-
-## 🔌 API Endpoints
-
-### Authentication
-- `POST /api/auth/signup` - Register new user
-- `POST /api/auth/login` - User login
-- `POST /api/auth/logout` - User logout
-
-### Quiz
-- `GET /api/quiz/categories` - Get all categories
-- `GET /api/quiz/:category` - Get questions by category
-- `POST /api/quiz/submit` - Submit quiz answers
-
-### Leaderboard
-- `GET /api/leaderboard` - Get top users
-- `GET /api/leaderboard/:userId` - Get user rank
-
----
-
-## 🚀 Future Enhancements
-
-- [ ] Social login integration (Google, Facebook, GitHub)
-- [ ] Multiple question types (images, audio, video)
-- [ ] Detailed user analytics dashboard
-- [ ] Quiz creation interface for users
-- [ ] Share results on social media
-- [ ] Mobile app (React Native)
-- [ ] Multiplayer live quiz mode
-- [ ] AI-generated questions
-- [ ] Certificate generation for quiz completion
 
 ---
 
@@ -289,13 +201,6 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 🐛 Known Issues
-
-- Timer may lag on slow network connections
-- Leaderboard updates require page refresh (real-time socket integration planned)
-
----
-
 ## 👨‍💻 Author
 
 **Ayush**
@@ -303,12 +208,6 @@ Contributions are welcome! Here's how you can help:
 - 🐙 GitHub: [@your-username](https://github.com/your-username)
 - 📧 Email: your.email@example.com
 - 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -321,13 +220,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🔗 Links
 
-- **GitHub Repository:** [Quiz Master](https://github.com/your-username/quiz-app)
-- **Live Demo:** [View Demo](https://your-demo-link.com) *(Optional)*
-- **Documentation:** [Full Docs](https://your-docs-link.com) *(Optional)*
-
----
 
 <div align="center">
 
