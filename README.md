@@ -1,8 +1,12 @@
-hey , so i created this project ,while tackling the issue of unavailbility of resources for my endsem prep and for other exam prep .
-this is the website that i have worked on which will return quizzes with vast amount of features.
-just put in the data in backend/json file it will fetch the data and will present u with the best quiz.
+## 💡 Why I Built This
 
+During my end-semester exam preparation, I faced a major challenge — **lack of quality resources and practice quizzes** for effective studying. I realized many students struggle with the same problem, whether it's for semester exams, competitive tests, or general knowledge improvement.
 
+That's when I decided to build **Quiz Master** — a comprehensive quiz platform that solves this problem. Simply add your questions to the `backend/json` file, and the system automatically fetches and presents them in an engaging, feature-rich quiz format. No more scrambling for practice materials or unreliable quiz websites!
+
+**This project is my solution to making exam preparation easier, more organized, and accessible for everyone.** 🎓
+
+---
 # 📝 Quiz Mania — Interactive Quiz Web App
 
 > A dynamic, interactive web application for taking quizzes online with real-time scoring and leaderboards
