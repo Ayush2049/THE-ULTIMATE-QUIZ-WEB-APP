@@ -205,24 +205,6 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 👨‍💻 Author
-
-**Ayush**
-
-- 🐙 GitHub: [@your-username](https://github.com/your-username)
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
----
-
-## 🙏 Acknowledgments
-
-- Quiz API provider for dynamic questions
-- MongoDB for database solutions
-- Express.js community for excellent documentation
-- All contributors and testers
-
----
 
 
 
