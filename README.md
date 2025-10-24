@@ -20,7 +20,7 @@ That's when I decided to build **Quiz Master** — a comprehensive quiz platform
 
 ## 🎯 Overview
 
-Quiz Master is a full-stack web application that supports fetching quiz questions from external APIs and custom JSON files. The platform features user authentication, real-time leaderboards, quiz timers, and a modern responsive UI.
+Quiz Mania is a full-stack web application that supports fetching quiz questions from external APIs and custom JSON files. The platform features user authentication, real-time leaderboards, quiz timers, and a modern responsive UI.
 
 ---
 
